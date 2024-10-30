@@ -1,25 +1,9 @@
-import 'package:flutter/material.dart';
+import "package:flutter/material.dart";
+import "package:flutter/cupertino.dart";
+import "./widgets_screens/Home.dart";
+import './widgets_screens/MyApp.dart';
 
-void main() {
-
-  runApp(
-    MaterialApp(
-      title: "My flutter app",
-      home: Scaffold(
-        appBar: AppBar(title: Text("My first app"),),
-        body: Material(
-            color: Colors.lightBlue,
-            child: Center(
-              child: Text(
-                "jaleel",
-                textDirection: TextDirection.ltr,
-              ),
-            )
-        ),
-      )
-    )
-
-  );
-
+void main(){
+  runApp(MyApp());
 }
 
